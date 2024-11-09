@@ -1,0 +1,91 @@
+* {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+}
+nav {
+  width: 100vw;
+  height: 81px;
+  background-color: tomato;
+}
+.logo {
+  width: 80px;
+  height: 100%;
+  border-radius: 999px;
+}
+.container {
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+}
+.About {
+  position: absolute;
+  left: 20rem;
+  top: 109px;
+}
+.service {
+  width: 200px;
+  position: absolute;
+  left: 25rem;
+  top: 109px;
+}
+
+.service a {
+  position: relative;
+  left: 10px;
+  opacity: 80%;
+  display: none;
+}
+.service:hover {
+  background-color: rgb(243, 126, 106);
+  opacity: 0.9;
+}
+.service:hover a {
+  display: block;
+}
+.about-dropdown {
+  margin: 0 auto;
+  width: 100vw;
+  border: 2px solid;
+  position: relative;
+  top: 27px;
+  right: 310px;
+  display: none;
+}
+.About:hover .about-dropdown {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: rgb(86, 76, 76);
+}
+.about-dropdown a {
+  position: absolute;
+  bottom: -0.5rem;
+}
+.about-dropdown div {
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 12rem;
+  width: 15rem;
+}
+.container a:hover {
+  color: yellow;
+}
+section {
+  margin-top: 4px;
+}
+section .home-food-img {
+  height: 16rem;
+}
+.home-food-img img {
+  height: 100%;
+  width: 100%;
+}

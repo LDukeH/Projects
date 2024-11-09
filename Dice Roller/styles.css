@@ -1,0 +1,54 @@
+* {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: greenyellow;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#roll {
+  width: 150px;
+  margin-top: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+#reset {
+  width: 150px;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+#dice-num {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#diceImages img {
+  width: 100px;
+  height: 100px;
+}
+#diceImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 10px;
+}
+#diceResult {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}

@@ -1,0 +1,22 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 10px;
+  width: 50vw;
+}
+img {
+  transition: 1s ease-out;
+  width: 20%;
+  height: 200px;
+  border: 2px solid;
+}
+#menu1:hover {
+  flex-grow: 2;
+}
+#menu2:hover {
+  flex-grow: 2;
+}
+#menu3:hover {
+  flex-grow: 2;
+}

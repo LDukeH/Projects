@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="converter">
+      <h1>Temperature Converter :</h1>
+      <input type="number" id="input-number" />
+
+      <!-- bỏ vào 2 div để flex cho dễ .-. -->
+      <div class="options">
+        <input type="radio" id="cel-to-far" name="temp" value="1" />
+        <label for="cel-to-far">Celsius to Fahrenheit</label>
+      </div>
+      <div class="options">
+        <input type="radio" id="far-to-cel" name="temp" value="2" />
+        <label for="far-to-cel">Fahrenheit to Celsius</label>
+      </div>
+      <button id="convert-btn">Convert</button>
+    </div>
+
+    <!-- output để ngoài converter -->
+    <div id="output">Output goes here</div>
+    <script src="index.js"></script>
+  </body>
+</html>

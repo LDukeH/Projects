@@ -1,0 +1,25 @@
+* {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url("hololive-ninomae-ina-nis-anime-girls-virtual-youtuber-hd-wallpaper-preview.jpg");
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container input {
+  margin: 5px;
+}
+.container #counter {
+  border-radius: 10px;
+  cursor: not-allowed;
+}

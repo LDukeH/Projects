@@ -1,0 +1,67 @@
+:root {
+  font-size: 16px;
+}
+* {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #f79d65;
+}
+
+#converter {
+  background-color: #f7b267;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid white;
+  height: 250px;
+}
+
+#converter h1 {
+  font-size: 3rem;
+  user-select: none;
+}
+#converter #input-number {
+  text-align: center;
+  width: 50%;
+  margin: 10px 0;
+  font-size: 2rem;
+  color: #f25c54;
+}
+#converter .options {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #f25c54;
+}
+#converter #convert-btn {
+  width: 30%;
+  font-size: 1.5rem;
+  border-radius: 999px;
+  background: linear-gradient(white 20%, #ff9500 100%);
+  cursor: pointer;
+}
+
+#output {
+  font-size: 3rem;
+  border: 1px solid black;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+  background-color: #ff9500;
+  color: white;
+}
+
+@media only screen and (max-width: 750px) {
+  :root {
+    font-size: 10px;
+  }
+}
