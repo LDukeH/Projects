@@ -1,0 +1,117 @@
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #000;
+  font-family: Lemonada;
+}
+
+body {
+  background-color: #66bce6;
+  overflow: hidden;
+}
+#nav-bar {
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 1125px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: 500ms ease-in;
+}
+
+#nav-bar #buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 615px;
+  height: 70px;
+  flex-shrink: 0;
+}
+.not-show {
+  opacity: 0;
+}
+#buttons li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 60px;
+  border-radius: 20px;
+  background: #1da2db;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#hero {
+  width: 1151px;
+  margin: 180px 144px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+#info h1 {
+  width: 500px;
+  font-size: 4rem;
+}
+
+#info p {
+  font-weight: bold;
+  width: 615px;
+  color: #000;
+  font-size: 1rem;
+}
+
+#hero-img {
+  position: relative;
+}
+
+#info {
+  position: relative;
+}
+
+.fadeInTop {
+  animation: fadeInTop 500ms;
+}
+
+.fadeInLeft {
+  animation: fadeInLeft 500ms;
+}
+.fadeInRight {
+  animation: fadeInRight 500ms;
+}
+
+@keyframes fadeInTop {
+  from {
+    top: -1000px;
+  }
+  to {
+    top: 0px;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    right: -1000px;
+  }
+  to {
+    right: 0px;
+  }
+}
