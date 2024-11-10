@@ -1,0 +1,64 @@
+:root {
+  font-size: 10px;
+}
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(163, 44, 44);
+}
+
+#container {
+  margin: 20px auto;
+  height: 300px;
+  width: 75%;
+  text-align: center;
+  color: rgb(255, 255, 0);
+  font-weight: bold;
+  background-color: rgb(170, 56, 56);
+  box-shadow: 2px 2px 10px 2px rgb(232, 232, 51);
+}
+
+h1 {
+  font-size: 10rem;
+  font-style: italic;
+}
+
+#count-down {
+  font-size: 2rem;
+  top: 40px;
+  position: relative;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+#hours::before {
+  content: "Hours";
+  position: relative;
+  top: 30px;
+  left: 45px;
+}
+#days::before {
+  content: "Days";
+  position: relative;
+  top: 30px;
+  left: 35px;
+}
+#minutes::before {
+  content: "Minutes";
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+#second::before {
+  content: "Seconds";
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
